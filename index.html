@@ -1,19 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>PHP in HTML Example</title>
+    <title>Email Login</title>
 </head>
 <body>
-
-    <h1>My PHP Page</h1>
-
-    <?php
-    // PHP code starts here
-    $message = "Hello, World!";
-    echo "<p>$message</p>";
-    ?>
-
-    <p>This is a regular HTML paragraph.</p>
-
+    <h2>Email Login</h2>
+    <form method="post" action="password_page.php">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required><br><br>
+        <input type="submit" value="Next">
+    </form>
 </body>
 </html>
